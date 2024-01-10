@@ -93,8 +93,8 @@ function App() {
 
   const Data = applyFilter({
     data: countries,
-    filterName: filtername,
     sortOrder,
+    filterName: filtername,
   });
 
   return (
